@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    {% load static %}  <!-- ✅ This line is required -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Welcome to My Site</h1>
+    <img src="{% static 'logo.png' %}" alt="Logo" width="120">
+</body>
+</html>
